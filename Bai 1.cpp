@@ -18,9 +18,7 @@ int main() {
 	XuatMang(a, dong, cot);
 	if(dong!=cot){cout<<"Khong ton tai duong cheo chinh phu";}
 	else{
-		cout<<"\t\t\n=========Tong duong cheo chinh phu=====\n";
 	cout<<Tong_chinh_phu(a, dong, cot)<<endl;
-		cout<<"\t\t\n=========Tong duong cheo chinh phu tru phan tu trung nhau=====\n";
 	cout << Tong_chinh_phu1(a, dong, cot) << endl;}
 	system("pause");
 	return 0;
@@ -69,7 +67,7 @@ int Tong_chinh_phu(int a[MAX][MAX], int dong, int cot) {
 }
 //th2
 int Tong_chinh_phu1(int a[MAX][MAX], int dong, int cot) {
-	cout << "\t\t\n============Tong duong cheo chinh phu====\n";
+	cout << "\t\t\n============Tong duong cheo chinh phu tru phan tu trung nhau====\n";
 	int tong = 0;
 	for (int i = 0; i < dong; i++) {
 		for (int j = 0; j < cot; j++) {
