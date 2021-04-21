@@ -16,8 +16,12 @@ int main() {
 	Nhap_so_cot(cot);
 	NhapMang(a, dong, cot);
 	XuatMang(a, dong, cot);
+	if(dong!=cot){cout<<"Khong ton tai duong cheo chinh phu";}
+	else{
+		cout<<"\t\t\n=========Tong duong cheo chinh phu=====\n";
 	cout<<Tong_chinh_phu(a, dong, cot)<<endl;
-	cout << Tong_chinh_phu1(a, dong, cot) << endl;
+		cout<<"\t\t\n=========Tong duong cheo chinh phu tru phan tu trung nhau=====\n";
+	cout << Tong_chinh_phu1(a, dong, cot) << endl;}
 	system("pause");
 	return 0;
 }
