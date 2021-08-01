@@ -1,5 +1,5 @@
 ﻿//1. Tính tổng cách phần tử lẻ nằm trên đường chéo chính và 
-//đường chéo phụ của mảng 2 chiều a[dong][cot].
+// dfsfs đường chéo phụ của mảng 2 chiều a[dong][cot].
 #include<iostream>
 #define MAX 50
 using namespace std;
